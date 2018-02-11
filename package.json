@@ -1,5 +1,5 @@
 {
-  "name": "s-json",
+  "name": "@shellteo/s-json",
   "version": "1.0.1",
   "description": "an extremely simple and fast JSON parser that implemented with typescript",
   "main": "lib/index.js",
