@@ -14,6 +14,17 @@
 s-Json is an extremely simple and fast JSON parser that implemented with [typescript](https://github.com/microsoft/TypeScript)
 
 # Install
+> npm install @shellteo/s-json
+
+# Usage
+```
+// TypeScript
+import SJson from '@shellteo/s-json';
+
+const data = '{"_id": "5e205303aaaddc66d08653c4","index": 0}'
+
+SJon.Parse(data)
+```
 
 # License
 s-Json is licensed under the MIT License.
