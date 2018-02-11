@@ -3,4 +3,4 @@ node_js: lts/*
 script:
   - npm run build
 after_script:
-  - npm i codecov && npx nyc@latest mocha & codecov -f coverage/*.json
+  - npm i codecov && codecov -f coverage/*.json
