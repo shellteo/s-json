@@ -1,0 +1,30 @@
+{
+  "name": "fast-json",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "ci": "npm run tsc && nyc mocha",
+    "tsc": "tsc -p ./tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shellteo/fast-json.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shellteo/fast-json/issues"
+  },
+  "homepage": "https://github.com/shellteo/fast-json#readme",
+  "dependencies": {
+    "@types/node": "^13.1.6"
+  },
+  "devDependencies": {
+    "@istanbuljs/nyc-config-typescript": "^1.0.1",
+    "mocha": "^7.0.0",
+    "nyc": "^15.0.0",
+    "should": "^13.2.3"
+  }
+}
