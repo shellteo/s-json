@@ -5,8 +5,9 @@
   "main": "lib/index.js",
   "scripts": {
     "test": "mocha",
-    "ci": "npm run tsc && nyc mocha",
-    "tsc": "tsc -p ./tsconfig.json"
+    "build": "npm run tsc",
+    "tsc": "tsc -p ./tsconfig.json",
+    "cov": "npx nyc@latest mocha"
   },
   "repository": {
     "type": "git",
