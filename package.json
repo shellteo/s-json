@@ -1,8 +1,8 @@
 {
-  "name": "fast-json",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "s-json",
+  "version": "1.0.1",
+  "description": "an extremely simple and fast JSON parser that implemented with typescript",
+  "main": "lib/index.js",
   "scripts": {
     "test": "mocha",
     "ci": "npm run tsc && nyc mocha",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shellteo/fast-json.git"
+    "url": "git+https://github.com/shellteo/s-json.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "shellteo<shellteo@163.com>",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/shellteo/fast-json/issues"
+    "url": "https://github.com/shellteo/s-json/issues"
   },
-  "homepage": "https://github.com/shellteo/fast-json#readme",
+  "homepage": "https://github.com/shellteo/s-json#readme",
   "dependencies": {
     "@types/node": "^13.1.6"
   },
