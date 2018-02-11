@@ -11,7 +11,7 @@
 [codecov-image]: https://img.shields.io/codecov/c/github/shellteo/s-json.svg
 [codecov-url]: https://codecov.io/gh/shellteo/s-json
 
-s-Json is an extremely simple and fast JSON parser.
+s-Json is an extremely simple and fast JSON parser that implemented with [typescript](https://github.com/microsoft/TypeScript)
 
 # Install
 
