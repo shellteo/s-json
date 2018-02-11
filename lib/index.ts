@@ -1,5 +1,5 @@
 class SJson {
-  static isEscapeString: boolean;
+  static isEscapeString: boolean = false;
 
   // Parse json string.
   public static Parse(json: string): object {
@@ -190,7 +190,7 @@ class SJson {
 
   // Parses the JsonString.
   private static ParseString(data: Data): string {
-    var str: string;
+    var str: string;    
 
     if (SJson.isEscapeString == false) {
       str = this.GetString(data);

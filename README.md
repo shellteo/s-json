@@ -4,8 +4,8 @@
 [![build status][travis-image]][travis-url]
 [![Test coverage][codecov-image]][codecov-url]
 
-[npm-image]: https://img.shields.io/npm/v/s-json.svg?style=flat-square
-[npm-url]: https://www.npmjs.com/package/@shellteo/s-json
+[npm-image]: https://img.shields.io/npm/v/@shellteo/s-json.svg
+[npm-url]: https://npmjs.org/package/@shellteo/s-json
 [travis-image]: https://img.shields.io/travis/shellteo/s-json.svg
 [travis-url]: https://travis-ci.org/shellteo/s-json
 [codecov-image]: https://img.shields.io/codecov/c/github/shellteo/s-json.svg
